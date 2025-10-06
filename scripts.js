@@ -83,5 +83,5 @@ for(let elemento2 of section) {
     })
 }
 
-
+// 4. Crea una función de nombre `getRandom` que acepte un array con valores y devuelva uno de ellos de manera aleatoria.
 
