@@ -21,22 +21,27 @@ for(let imagenes of img) {
 
 const p = document.querySelectorAll("p");
 for(let parrafos of p) {
+  parrafos.addEventListener('click',() => {
         parrafos.style.color = "#b0bff5ff";
         parrafos.style.backgroundColor = "#000000ff";
-    }
-
+    })
+}
     //2.3 Bloques de article o section: Cambia el color de fondo.
 
 const article = document.querySelectorAll("article")
 const section = document.querySelectorAll("section")
 
 for(let elemento of article) {
+    elemento.addEventListener('click',() => {
         elemento.style.backgroundColor = "#54bbffff";
-    }
+    })
+}
 
 for(let elemento2 of section) {
+     elemento2.addEventListener('click',() => {
         elemento2.style.backgroundColor = "#921313ff";
-    }
+    })
+}
 
 //3.Cuando el cursor esté sobre alguno de los siguientes elementos, seguir las instrucciones siguientes, y devolver dicho elemento a su estado original cuando salga el cursor.
 
